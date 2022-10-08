@@ -120,3 +120,26 @@ h2 {
     border: 3px solid brown;
 }
 
+/* ticket-card */
+.ms_ticket-card {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 50px;
+    color: grey;
+    padding: 2rem 4rem;
+    background-color: lightgoldenrodyellow;
+    box-shadow: inset 0 0 0 2px white;
+    border: 3px solid brown;
+}
+
+.ms_ticket-left {
+    width: 25%;
+    border-right: 5px dashed brown;
+}
+
+/* ticket-number */
+.ms_ticket-number {
+    width: 25%;
+    text-align: center;
+    border-right: 5px dashed brown;
+}
