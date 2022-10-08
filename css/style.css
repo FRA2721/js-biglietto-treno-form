@@ -6,6 +6,12 @@
 }
 
 /* common-section */
+/* html */
+html{
+    font-family: "Trirong", serif;
+    font-size: .8rem;
+}
+
 /* body */
 body {
     background-color: burlywood;
@@ -31,14 +37,14 @@ body {
 h1 {
     margin: 3rem 0;
     text-align: center;
-    color: grey;
+    color: rgb(122, 0, 0); 
 }
 
 h2 {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
-    color: grey;
+    color: rgb(122, 0, 0); 
 }
 
 /* margin-section */
@@ -47,7 +53,7 @@ h2 {
 }
 
 .ms_mb-2 {
-    margin-bottom: 1.5rem;
+    margin-bottom: .5rem;
 }
 
 /* text */
@@ -56,6 +62,7 @@ h2 {
 }
 /* submit */
 #submit {
+    margin-top: 1.5rem;
     background-color: brown;
     border: none;
     color: white;
@@ -65,6 +72,13 @@ h2 {
     display: inline-block;
     font-size: 16px;
     border-radius: 50px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+#submit:hover{
+    background-color: burlywood;
+    color: brown;
 }
 
 /* name */
@@ -112,24 +126,30 @@ h2 {
     width: 80%;
     margin: 0 auto;
     background-color: lightgoldenrodyellow;
-    color: grey;
+    color: rgb(122, 0, 0); 
     padding: 2rem;
     text-align: center;
     font-size: 2rem;
     border-radius: 50px;
-    border: 3px solid brown;
+    box-shadow: 10px 10px 8px brown;
+}
+
+#schedule:hover{ 
+    cursor: pointer;
+    width: 90%;
+    transition-duration: 0.3s;
 }
 
 /* ticket-card */
 .ms_ticket-card {
     width: 90%;
+    height: 100%;
     margin: 0 auto;
     border-radius: 50px;
-    color: grey;
+    color: rgb(122, 0, 0); 
     padding: 2rem 4rem;
     background-color: lightgoldenrodyellow;
-    box-shadow: inset 0 0 0 2px white;
-    border: 3px solid brown;
+    box-shadow: 10px 10px 8px brown;
 }
 
 .ms_ticket-left {
